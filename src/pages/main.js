@@ -17,6 +17,7 @@ export const Main = () => {
                         <Link to={"/thebluepill/hi"}>the blue pill - hindi</Link>
                         <Link to={"/thebluepill/po"}>the blue pill - portuguese</Link>
                         <Link to={"/thebluepill/tu"}>the blue pill - turkish</Link>
+                        <Link to={"/thebluepill/ru"}>the blue pill - russian</Link>
                         <Link className={"margin-top-2"} to={"/images"}>image library</Link>
                     </article>
                 </main>

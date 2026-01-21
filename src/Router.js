@@ -8,6 +8,7 @@ import BluePillHindi from "./pages/bluePillHindi";
 import BluePillPortugese from "./pages/bluePillPortugese";
 import BluePillSpanish from "./pages/bluePillSpanish";
 import BluePillTurkish from "./pages/bluePillTurkish";
+import BluePillRussian from "./pages/bluePillRussian";
 
 export const Router = () => {
     return (<Routes>
@@ -17,6 +18,7 @@ export const Router = () => {
             <Route path={`/thebluepill/po`} element={<BluePillPortugese/>}/>
             <Route path={`/thebluepill/sp`} element={<BluePillSpanish/>}/>
             <Route path={`/thebluepill/tu`} element={<BluePillTurkish/>}/>
+            <Route path={`/thebluepill/ru`} element={<BluePillRussian/>}/>
             <Route path={`/images`} element={<ImageLib/>}/>
         </Routes>);
 };
