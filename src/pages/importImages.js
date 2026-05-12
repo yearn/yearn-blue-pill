@@ -1,5 +1,7 @@
 function importImages(globResult) {
-  return Object.values(globResult).map((m) => m.default);
+  return Object.entries(globResult)
+    .sort(([a], [b]) => a.localeCompare(b, undefined, { numeric: true }))
+    .map(([, m]) => m.default);
 }
 
 export default importImages;

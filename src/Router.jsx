@@ -1,5 +1,5 @@
 import React from "react";
-import {Route, Routes} from "react-router-dom";
+import {Route, Routes, Navigate} from "react-router-dom";
 
 import {Main} from "./pages/main";
 import BluePill from "./pages/bluePill";
@@ -20,5 +20,6 @@ export const Router = () => {
             <Route path={`/thebluepill/tu`} element={<BluePillTurkish/>}/>
             <Route path={`/thebluepill/ru`} element={<BluePillRussian/>}/>
             <Route path={`/images`} element={<ImageLib/>}/>
+            <Route path="*" element={<Navigate to="/" replace />}/>
         </Routes>);
 };
