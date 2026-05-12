@@ -3,7 +3,6 @@ import React, {Component} from "react"
 import IconTwitter from './icons/IconTwitter';
 import IconGithub from './icons/IconGithub';
 import IconYearnFooter from './icons/IconYearnFooter';
-import IconCalendar from "./icons/IconCalendar";
 
 class Footer extends Component {
     render() {

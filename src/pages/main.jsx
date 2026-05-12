@@ -1,7 +1,5 @@
 import React from "react";
 import Layout from "../components/Layout";
-import Header from "../components/Header";
-import logo from '../images/yearn-logo.svg';
 import {Link} from "react-router-dom";
 
 export const Main = () => {
@@ -9,7 +7,7 @@ export const Main = () => {
             <Layout>
                 <main>
                     <article className={"vertical-center-container"}>
-                        <p className={"text-large vertical-center"}>
+                        <p className={"text-large"}>
                             YFI story
                         </p>
                         <Link className={"margin-top-2"} to={"/thebluepill"}>the blue pill - english</Link>
