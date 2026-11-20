@@ -3,15 +3,15 @@
 ## Development
 
 ```sh
-pnpm install
-pnpm run start
+bun install
+bun run start
 ```
 
 ## Production build
 
 ```sh
-pnpm install
-pnpm run build
+bun install
+bun run build
 ```
 
 ### Serve the production build locally

@@ -1,0 +1,12 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "yearn-blue-pill",
+  "compatibility_date": "2026-11-10",
+  "assets": { "directory": "build", "not_found_handling": "single-page-application" },
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "bluepill.yearn.fi/*", "zone_name": "yearn.fi" },
+    { "pattern": "bluepill.yearn.dev/*", "zone_name": "yearn.dev" }
+  ],
+  "env": { "preview": { "workers_dev": true, "routes": [] } }
+}
