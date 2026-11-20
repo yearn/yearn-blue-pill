@@ -1,7 +1,0 @@
-packages:
-  - .
-
-minimumReleaseAge: 10080
-ignoreScripts: true
-blockExoticSubdeps: true
-trustPolicy: no-downgrade
